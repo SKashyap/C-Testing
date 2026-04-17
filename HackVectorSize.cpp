@@ -2,6 +2,7 @@
 
 using namespace std;
 
+/* Define a proxy struct based on actual vector def'n*/
 struct VectorProxy {
     int* begin;
     int* end;
